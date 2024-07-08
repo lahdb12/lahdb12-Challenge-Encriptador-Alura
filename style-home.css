@@ -1,0 +1,418 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+body{
+    background-color: #E5E5E5;
+
+}
+
+.principal{
+
+    width: 1440px;
+    height: 1024px;
+
+}
+
+.logo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+
+.cajareq{
+
+    width: 65%;
+
+}
+
+#textoEncriptado { 
+    
+    position: absolute;
+    width: 577px;
+    height: auto;
+    left: 240px;
+    top: 168px;
+    resize: none;
+    font: inter;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150%;
+
+    /* identical to box height, or 48px */
+
+    /* Dark blue/dark-blue-300 */
+    color: #0A3871;
+
+    background: none;
+    border: none;
+}
+
+#textoEncriptado::placeholder{
+    color: #0A3871;
+    opacity: 1;
+}
+
+#textoEncriptado{
+    border: none;
+    resize: none;
+}
+
+
+.reccajados{
+
+    width: 35%;
+
+}
+
+#textoDesencriptado {
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    top: 40px;
+    resize:none;
+    margin-left: 1000px;
+    /* White */
+    background: #FFFFFF;
+
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+    /*texto desencriptado*/
+    font-size: 1.5rem;
+    font-family: 'inter';
+    padding-left: 32px;
+    padding-bottom: 150px;
+}
+
+
+/* AQUI EMPIEZA EL LIO DE LA IMAGEN DEL TEXTO ENCRIPTADO CON AYUDA DE GPT */
+
+
+.interiormuneco {
+
+    opacity: 1;
+    position:absolute;
+    top: 0;
+    padding-left: 990px;
+    height: 944px;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.interiormuneco img {
+    width: 90%; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-bottom: 10px;
+}
+
+.interiormuneco p {
+    width: 360px;
+    text-align: center;
+    line-height: 120%;
+    margin: 0;
+    color: #888;
+    font: inter;
+    font-family: inter;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+
+
+}
+
+.oculto {
+    opacity: 0;
+}
+
+
+
+/* AQUI ACABA */
+
+
+
+
+
+
+
+
+.cajareq{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+}
+
+
+#exclamacion{
+
+
+    padding: 0px;
+    gap: 0px;
+
+    width: 16px;
+    height: 16px;
+    left: 40px;
+    top: 40px;
+    opacity: 0.5;
+}
+.requiere {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
+    color:#495057;
+    font-family: 'Inter';
+}
+
+
+.botones {
+    /* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 680px;
+height: 67px;
+left: 240px;
+top: 885px;
+}
+
+.boton1 {
+    /* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 24px;
+gap: 8px;
+text-align: center;
+width: 223px;
+height: 67px;
+
+/* Dark blue/dark-blue-300 */
+background: #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.boton1 p {
+    /* Button */
+width: 100%;
+/* Auto layout */
+color: white;
+text-align: center;
+font-size: 1rem;
+}
+
+.boton2 {
+    /* Button */
+
+box-sizing: border-box;
+font-size: 1rem;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+
+width: 223px;
+height: 67px;
+
+/* Light gray */
+background: #D8DFE8;
+
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.boton2 p {
+ /* Button */
+ width: 100%;
+ /* Auto layout */
+ color: #0A3871;
+ text-align: center;
+    
+}
+
+
+.boton3 {
+    /* Button */
+    font-size: 1rem;
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+margin-left: 340px;
+width: 223px;
+height: 67px;
+
+/* Light gray */
+background: #ffffff;
+
+/* Dark blue/dark-blue-300 */
+border: 1px solid #0A3871;
+border-radius: 24px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.boton3 p {
+     /* Button */
+ width: 100%;
+ /* Auto layout */
+ color: #031a35;
+ text-align: center;
+    
+}
+/* Global box-sizing rule */
+* {
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .cabeza{
+
+        justify-content: center;
+        flex-direction: row;
+        display: flex;
+
+    }
+
+    .principal {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    #textoEncriptado {
+        width: 90%;
+        height: 38%;
+        left: 5%;
+        top: auto;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        padding-left: 5%;
+    }
+
+    .reccajados {
+        width: 100%;
+    }
+
+    #textoDesencriptado {
+
+        width: 90%;
+        left: 0;
+        transform: none;
+        top: 77%;
+        left: 5%;
+        margin-left: 0;
+        height: 20%;
+        box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .interiormuneco {
+        width: 100%;
+        left: 0;
+        transform: none;
+    }
+
+    .cajareq {
+        width: 100%;
+        left: 0;
+        top: auto;
+        top: 52%;
+        justify-content: center;
+    }
+
+    .botones {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        left: 0;
+        top: auto;
+        top: 55%;
+        gap: 3px;
+
+    }
+
+    .boton1, .boton2, .boton3 {
+        width: 50%;
+        max-width: 300px;
+        margin-bottom: 10px;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton3 {
+        margin-left: 0;
+    }
+
+    .interiormuneco{
+
+        display: none;
+
+    }
+}
